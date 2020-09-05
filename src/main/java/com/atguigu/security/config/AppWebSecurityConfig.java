@@ -19,6 +19,9 @@ import java.io.IOException;
 @Configuration //声明一个配置类。配置类就相当与XML配置文件的作用。
 @EnableWebSecurity //启用权限框架功能
 public class AppWebSecurityConfig extends WebSecurityConfigurerAdapter {
+    
+    
+    //练习idea pull push
 
     @Autowired
     DataSource dataSource;
